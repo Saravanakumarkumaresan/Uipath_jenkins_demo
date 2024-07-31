@@ -19,7 +19,6 @@ pipeline {
     stage ('PostBuild') {
       steps {
         UiPathDeploy (
-          packagePath: "path\)\)\)    o\)\)NuGetpackage",
           orchestratorAddress: "https://cloud.uipath.com/",
           orchestratorTenant: "DefaultTenant",
 		  folderName: "IT folder",
